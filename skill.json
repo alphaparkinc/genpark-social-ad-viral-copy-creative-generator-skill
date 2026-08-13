@@ -1,0 +1,35 @@
+{
+  "name": "genpark-social-ad-viral-copy-creative-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - High-converting social media video/image ad copy & creative asset generator.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "social-ads",
+    "viral-copy",
+    "ad-creative-generator",
+    "marketing-ai",
+    "ph-august13"
+  ],
+  "inputs": {
+    "target_product": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "ad_copy_variants": {
+      "type": "array"
+    },
+    "visual_hooks": {
+      "type": "array"
+    },
+    "predicted_ctr_score": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
